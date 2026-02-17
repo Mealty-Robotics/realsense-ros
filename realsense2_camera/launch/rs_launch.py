@@ -24,7 +24,7 @@ configurable_parameters = [{'name': 'camera_name',                  'default': '
                            {'name': 'camera_namespace',             'default': 'camera', 'description': 'namespace for camera'},
                            {'name': 'serial_no',                    'default': "''", 'description': 'choose device by serial number'},
                            {'name': 'usb_port_id',                  'default': "''", 'description': 'choose device by usb port id'},
-                           {'name': 'device_type',                  'default': "''", 'description': 'choose device by type'},
+                           {'name': '_device_type',                  'default': "''", 'description': 'choose device by type'},
                            {'name': 'config_file',                  'default': "''", 'description': 'yaml config file'},
                            {'name': 'json_file_path',               'default': "''", 'description': 'allows advanced configuration'},
                            {'name': 'initial_reset',                'default': 'false', 'description': "''"},
